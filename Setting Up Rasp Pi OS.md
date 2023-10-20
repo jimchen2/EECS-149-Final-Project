@@ -21,7 +21,9 @@ I found the `qemu-aarch64` isn't registered so I manually register it
 echo ':qemu-aarch64:M::\x7fELF\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\x00\xb7:\xff\xff\xff\xff\xff\xff\xff\x00\xff\xff\xff\xff\xff\xff\xff\xff\xfe\xff\xff:/usr/bin/qemu-aarch64-static:' | sudo tee /proc/sys/fs/binfmt_misc/register
 ```
 ## Adding the Wifi Service
-After chrooting I need to add the wifi service to automatically connect to Berkeley Eduroam. So I add a service `/etc/systemd/system/connectwifi.service`
+After chrooting, I can run commands now.
+
+I add the wifi service to automatically connect to Berkeley Eduroam. So I add a service `/etc/systemd/system/connectwifi.service`
 ```
 [Unit]
 Description=Connect to BerkeleyEduroam
