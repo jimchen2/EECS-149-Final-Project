@@ -37,3 +37,27 @@ RemainAfterExit=yes
 [Install]
 WantedBy=multi-user.target
 ```
+## Adding a Sanity Check
+
+When I tried using nmap to find the ip to ssh into it returned dozens of addresses and I couldn't find the appropriate one.
+
+To make a sanity check to see if Rasp Pi is connected to wifi, I added another service
+```
+[Unit]
+Description=Send notification to webhook.site
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/send_webhook.sh
+
+[Install]
+WantedBy=multi-user.target
+```
+Curling the URL
+```
+root@wifi-10-40-196-199:/# cat /usr/local/bin/send_webhook.sh
+#!/bin/bash
+curl https://webhook.site/da5810be-d59c-4746-962e-bccd2a778cc3
+```
