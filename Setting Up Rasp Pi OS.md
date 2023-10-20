@@ -1,6 +1,7 @@
 # Setting Up Rasp Pi OS
 
 ## Download the OS Image 
+I wanted to configure myself so I downloaded the light version(about 450 MB)
 ## Install Qemu
 Since my laptop is x86 and Rasp Pi OS is arm, I cannot chroot into it natively. Instead I need qemu
 ## Chrooting
