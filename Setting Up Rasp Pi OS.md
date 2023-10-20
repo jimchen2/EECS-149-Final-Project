@@ -7,7 +7,7 @@ Since my laptop is x86 and Rasp Pi OS is arm, I cannot chroot into it natively. 
 ## Chrooting
 I downloaded 64-bit OS, and after chrooting
 ```
-sudo chroot /run/media/jimchen/rootfs /usr/bin/qemu-aarch64-static /bin/bash
+sudo chroot /run/media/$USER/rootfs /usr/bin/qemu-aarch64-static /bin/bash
 ```
 I couldn't do basic commands like `ls`, `cd`.
 
