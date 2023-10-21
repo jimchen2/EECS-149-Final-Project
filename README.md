@@ -7,6 +7,7 @@ Read it online at https://berkeley-7.gitbook.io/pro/
 
 
 <p>&nbsp;</p>
+<p>&nbsp;</p>
 
 ## Project Timeline
 ![image](https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/203c344d-8ea0-4e29-bcda-fbc39cd2cde2)
