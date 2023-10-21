@@ -2,7 +2,7 @@
 
 This is the public repo for EECS 149 final project.
 
-Read it online at https://berkeley-7.gitbook.io/pro/
+[Read it online](https://berkeley-7.gitbook.io/pro/) 
 
 
 
