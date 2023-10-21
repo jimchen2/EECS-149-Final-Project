@@ -4,8 +4,9 @@ This is the public repo for EECS 149 final project.
 
 Read it online at https://berkeley-7.gitbook.io/pro/
 
-Here is the [Proposal link](https://www.overleaf.com/read/rpnnjmjwwfrt)
 
+
+<p>&nbsp;</p>
 
 ## Project Timeline
 ![image](https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/203c344d-8ea0-4e29-bcda-fbc39cd2cde2)
