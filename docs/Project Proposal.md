@@ -1,6 +1,6 @@
 # Project Proposal: Trash Collector Bot
 
-**Team:** Jiamu Chen, Samyak Tiwari [https://jimchen.me](https://jimchen.me)
+**Team:** [Jiamu Chen](https://jimchen.me), Samyak Tiwari 
 
 ## Goal
 
