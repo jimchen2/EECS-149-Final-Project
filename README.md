@@ -1,8 +1,8 @@
 # EECS-149-Final-Project
 
-This is the public repo for EECS 149 final project.
+[This is the public repo](https://github.com/jimchen2/EECS-149-Final-Project/) for EECS 149 final project.
 
-[Read it online](https://berkeley-7.gitbook.io/pro/) 
+[Read it on GitBook](https://berkeley-7.gitbook.io/pro/) 
 
 
 
