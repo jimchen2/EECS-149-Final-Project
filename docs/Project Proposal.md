@@ -1,6 +1,6 @@
 # Project Proposal: Trash Collector Bot
 
-**Team:** [Jiamu Chen](https://jimchen.me), [Samyak Tiwari](https://github.com/tiwar081), [Hanson Li](https://github.com/Hanson-Li-lchanggle)
+**Team:** [Jiamu Chen](https://jimchen.me), [Samyak Tiwari](https://github.com/tiwar081), [Hanson Li](https://github.com/Hanson-Li-lchanggle), [Robert Lee](https://github.com/depetrol)
 
 ## Goal
 
@@ -19,7 +19,7 @@ The robot learns to see trash with a machine learning system.
 1. Sensors and Actuators
 2. MBD & Modeling Physical Dynamics
 3. Networking
-4. TinyML
+4. TinyML (TinyML is a branch of machine learning and embedded systems research that focuses on running low-power model inference on small devices like microcontrollers)
 
 ## Schedule
 
@@ -55,7 +55,7 @@ Making the robot learn efficiently can be hard. The budget may affect our choice
 ## Picking Up Trash
 
 1. Integrate a claw on the Raspberry Pi.
-2. Integrate the picking up mechanism with Image Processing
+2. Integrate the picking up mechanism with Image Processing (we are still figuring out whether to use state machine or machine learning)
 
 ## Resources
 
