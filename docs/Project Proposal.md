@@ -2,6 +2,13 @@
 
 **Team:** [Jiamu Chen](https://jimchen.me), [Samyak Tiwari](https://github.com/tiwar081), [Hanson Li](https://github.com/Hanson-Li-lchanggle), [Robert Lee](https://github.com/depetrol)
 
+## Github Repo
+
+[This is the public repo](https://github.com/jimchen2/EECS-149-Final-Project/) for EECS 149 final project.
+
+[Read it on GitBook](https://berkeley-7.gitbook.io/pro/)
+
+
 ## Goal
 
 Design a robot that finds and picks up trash. It uses machine learning (image processing) and real-time interference to know trash from non-trash.
@@ -24,10 +31,6 @@ The robot learns to see trash with a machine learning system.
 ## Schedule
 
 Work 3 hours in lab every week. Details to come later.
-
-## Github Repo
-
-[https://github.com/jimchen2/EECS-149-Final-Project](https://github.com/jimchen2/EECS-149-Final-Project)
 
 ## Risks
 
