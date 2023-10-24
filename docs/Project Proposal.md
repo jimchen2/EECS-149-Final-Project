@@ -1,13 +1,12 @@
 # Project Proposal: Trash Collector Bot
 
-**Team:** [Jiamu Chen](https://jimchen.me), [Samyak Tiwari](https://github.com/tiwar081), [Hanson Li](https://github.com/Hanson-Li-lchanggle), [Robert Lee](https://github.com/depetrol)
+**Team:** [Jiamu Chen](https://jimchen.me), [Samyak Tiwari](https://github.com/tiwar081), [Hanson Li](https://github.com/Hanson-Li-lchanggle), [Shulu Li](https://github.com/depetrol)
 
 ## Github Repo
 
 [This is the public repo](https://github.com/jimchen2/EECS-149-Final-Project/) for EECS 149 final project.
 
 [Read it on GitBook](https://berkeley-7.gitbook.io/pro/)
-
 
 ## Goal
 
@@ -18,7 +17,6 @@ Design a robot that finds and picks up trash. It uses machine learning (image pr
 The robot learns to see trash with a machine learning system.
 
 - **Camera:** to move around and spot trash.
-  
 - **Proximity Sensors:** To avoid obstacles and navigate.
 
 ## Course Topics Addressed
@@ -64,25 +62,24 @@ Making the robot learn efficiently can be hard. The budget may affect our choice
 
 **Hardware:**
 
-| **Item**                                     | **Details**                                    |
-|----------------------------------------------|------------------------------------------------|
-| [Raspberry Pi 4 Model B CanaKit](https://www.amazon.com/dp/B08956GVXN?psc=1&ref=ppx_yo2ov_dt_b_product_details)   | Ordered by J. C. Total Price: $176.39         |
-| [Camera Module V2-8 Megapixel, 1080p](https://www.amazon.com/dp/B01ER2SKFS?psc=1&ref=ppx_yo2ov_dt_b_product_details)   | Ordered by J. C. Total Price: $27.24          |
-| [L298N Motor Drive Controller Board](https://www.amazon.com/gp/product/B07ZT619TD/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1) | Ordered by J. C. Total Price: $18.73          |
-| [VGE Battery Pack, 5000mAh, 5V 2.0A](https://www.amazon.com/dp/B09HXYTDMV?psc=1&ref=ppx_yo2ov_dt_b_product_details)   | Ordered by J. C. Total Price: $28.61          |
-| [L293 IC Stepper Motor Drivers Controllers](https://www.amazon.com/dp/B07NXTWJV9?psc=1&ref=ppx_yo2ov_dt_b_product_details)    | Ordered by J. C. Total Price: $9.79           |
-| [4PCS Breadboards Kit](https://www.amazon.com/dp/B07DL13RZH?psc=1&ref=ppx_yo2ov_dt_b_product_details)   | Ordered by J. C. Total Price: $11.00          |
-| [Chanzon 120pcs Header Jumper Wire](https://www.amazon.com/dp/B09FPGT7JT?psc=1&ref=ppx_yo2ov_dt_b_product_details)  | Ordered by J. C. Total Price: $11.01          |
-| [SUPULSE Lipo Charger](https://www.amazon.com/dp/B08L7VCBXG?psc=1&ref=ppx_yo2ov_dt_b_product_details)   | Ordered by J. C. Total Price: $22.04          |
-| Proximity Sensors                            | --                                             |
-| Trash Pickup Claw                            | --                                             |
-| Vehicle frame                                | --                                             |
+| **Item**                                                                                                                   | **Details**                     |
+| -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- |
+| [Raspberry Pi 4 Model B CanaKit](https://www.amazon.com/dp/B08956GVXN?psc=1&ref=ppx_yo2ov_dt_b_product_details)                     | Ordered by J. C. Total Price: $176.39 |
+| [Camera Module V2-8 Megapixel, 1080p](https://www.amazon.com/dp/B01ER2SKFS?psc=1&ref=ppx_yo2ov_dt_b_product_details)                | Ordered by J. C. Total Price: $27.24  |
+| [L298N Motor Drive Controller Board](https://www.amazon.com/gp/product/B07ZT619TD/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1) | Ordered by J. C. Total Price: $18.73  |
+| [VGE Battery Pack, 5000mAh, 5V 2.0A](https://www.amazon.com/dp/B09HXYTDMV?psc=1&ref=ppx_yo2ov_dt_b_product_details)                 | Ordered by J. C. Total Price: $28.61  |
+| [L293 IC Stepper Motor Drivers Controllers](https://www.amazon.com/dp/B07NXTWJV9?psc=1&ref=ppx_yo2ov_dt_b_product_details)          | Ordered by J. C. Total Price: $9.79   |
+| [4PCS Breadboards Kit](https://www.amazon.com/dp/B07DL13RZH?psc=1&ref=ppx_yo2ov_dt_b_product_details)                               | Ordered by J. C. Total Price: $11.00  |
+| [Chanzon 120pcs Header Jumper Wire](https://www.amazon.com/dp/B09FPGT7JT?psc=1&ref=ppx_yo2ov_dt_b_product_details)                  | Ordered by J. C. Total Price: $11.01  |
+| [SUPULSE Lipo Charger](https://www.amazon.com/dp/B08L7VCBXG?psc=1&ref=ppx_yo2ov_dt_b_product_details)                               | Ordered by J. C. Total Price: $22.04  |
+| Proximity Sensors                                                                                                                | --                                    |
+| Trash Pickup Claw                                                                                                                | --                                    |
+| Vehicle frame                                                                                                                    | --                                    |
 
 **Software:**
 
-| **Software**     | **Purpose**                              |
-|------------------|------------------------------------------|
-| Raspberry Pi OS  | OS for Raspberry Pi                      |
-| PyTorch          | For implementing CNN                     |
-| ChatGPT          | For debugging, and formatting documents  |
-
+| **Software** | **Purpose**                       |
+| ------------------ | --------------------------------------- |
+| Raspberry Pi OS    | OS for Raspberry Pi                     |
+| PyTorch            | For implementing CNN                    |
+| ChatGPT            | For debugging, and formatting documents |
