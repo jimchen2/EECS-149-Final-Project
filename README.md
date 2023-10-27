@@ -20,3 +20,8 @@
 ## Proposal Requirements
 
 ![image](https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/56c66ddc-9b77-4f73-91a3-79ba3f75356b)
+
+## Milestone Requirements
+![image](https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/d4600d03-c31d-4cab-9018-f5faa08c8cd3)
+
+![image](https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/6342cdc5-cc17-4be7-9ad7-b2f463d64e16)
