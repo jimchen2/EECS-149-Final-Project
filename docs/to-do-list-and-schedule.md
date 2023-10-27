@@ -22,8 +22,11 @@ Robot Arm: https://www.pololu.com/product/3550
 Plan
 11/3
 1) Mechanical structure of the car (first try on amazon)
+
    a) Platform (3D Print)
+
    b) robot claw (Cory 204)
+
    c) power system (Amazon)
-2) Get wheels running
-3) Obtain pre-trained data
+3) Get wheels running
+4) Obtain pre-trained data
