@@ -4,6 +4,7 @@
 
 [Read it on GitBook](https://berkeley-7.gitbook.io/pro/)
 
+[Read Project Specificiation Here(need Berkeley email)](https://docs.google.com/presentation/d/1jiR4E24v54jFYYljphL4_W85KDIMmt6cjT26hHcKnxk/edit?usp=sharing)
 &#x20;
 
 &#x20;
