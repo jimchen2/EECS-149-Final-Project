@@ -9,6 +9,6 @@ Software
 3) Object localization (sliding windows + reusing calculations)
 
 Parts
-Battery for motors: https://www.adafruit.com/product/328
-Claw Gripper: https://www.amazon.com/LewanSoul-Mechanical-BigClaw-Gripper-Without/dp/B08Q7XZVR4?th=1
+Battery for motors: https://www.adafruit.com/product/328 &nbsp
+Claw Gripper: https://www.amazon.com/LewanSoul-Mechanical-BigClaw-Gripper-Without/dp/B08Q7XZVR4?th=1 \
 Robot Arm: https://www.pololu.com/product/3550
