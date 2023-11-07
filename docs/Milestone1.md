@@ -31,8 +31,12 @@ Jiamu's role is
 - Maintain the docs and design the slides for submission
 
 <!-- To be added
-Samyak's role is
-Hansen's role is -->
+Samyak's role is-->
+Hansen's role is 
+- Bought the power system, mechanical structure of the robot
+- Assemble the power system, mechanical structure of the robot
+- Help with embedded coding part
+
 
 ## Risks Identified
 - **Kit Assembly:** The assembly process is more complex than anticipated, requiring significant time investment.
