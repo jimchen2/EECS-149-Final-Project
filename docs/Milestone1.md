@@ -24,6 +24,15 @@ Tasks are scheduled on a weekly basis starting now:
 - Implement and fine-tune the trash collection method, potentially modifying the robot design.
 - Conduct debugging and troubleshooting.
 
+Jiamu's role is
+- Set up operating system and make the robot drive and arm move from python code
+- Deploy the yolo model into the robot
+- Maintain the docs and design the slides for submission
+
+<!-- To be added
+Samyak's role is
+Hansen's role is -->
+
 ## Risks Identified
 - **Kit Assembly:** The assembly process is more complex than anticipated, requiring significant time investment.
 - **Operating System Deployment:** The 7GB operating system size is substantial compared to standard images, posing challenges in debugging and implementation.
