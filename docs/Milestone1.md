@@ -9,6 +9,7 @@
 - Completed hardware procurement.
 - Achieved 50% completion in assembling the robot kit.
 - Configured Raspberry Pi for automatic WiFi connection and SSH on boot via systemd service.
+- Tried out Yolo on images
 
 ## Goals - Modifications to Project Scope
 The primary objective remains to create a trash-collecting robot using machine learning for image recognition and real-time decision-making. We are evaluating the potential of employing a state machine against a machine learning model for the trash collection mechanism, with further refinements underway.
