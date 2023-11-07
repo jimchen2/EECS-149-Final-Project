@@ -25,14 +25,14 @@ Tasks are scheduled on a weekly basis starting now:
 - Implement and fine-tune the trash collection method, potentially modifying the robot design.
 - Conduct debugging and troubleshooting.
 
-Jiamu's role is
+### Jiamu's role is
 - Set up operating system and make the robot drive and arm move from python code
 - Finish training & finetuning Yolo-v5 and deploy the model
 - Maintain the docs and design the slides for submission
 
 <!-- To be added
 Samyak's role is-->
-Hanson's role is 
+### Hanson's role is 
 - Bought the robot car kit
 - Assemble the power system, mechanical structure of the robot
 - Merge the machine learning model with the robot's driving and arm functions
