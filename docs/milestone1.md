@@ -1,8 +1,9 @@
 # Milestone 1 Report: Trash Collector Bot
 
 ## Architecture Drawing
-![image](https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/1701d585-b64e-4b02-b794-619a87e5b2e3)
-![image](https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/8f3853a2-5093-4ee4-b0ad-18dce67e88f7)
+<img src="https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/1701d585-b64e-4b02-b794-619a87e5b2e3" width="50%" /><img src="https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/8f3853a2-5093-4ee4-b0ad-18dce67e88f7" width="50%" />
+
+<img src="https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/dded059a-2898-419d-812e-aec7a14e06c8" width="50%" /><img src="https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/e8e9c12e-6b01-48c0-984a-1817ebaa7b67" width="50%" />
 
 ## Progress So Far
 - Completed hardware procurement.
