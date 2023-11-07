@@ -32,7 +32,7 @@ Jiamu's role is
 
 <!-- To be added
 Samyak's role is-->
-Hansen's role is 
+Hanson's role is 
 - Bought the power system, mechanical structure of the robot
 - Assemble the power system, mechanical structure of the robot
 - Help with embedded coding part
