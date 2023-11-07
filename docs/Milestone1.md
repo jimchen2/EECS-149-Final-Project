@@ -27,15 +27,15 @@ Tasks are scheduled on a weekly basis starting now:
 
 Jiamu's role is
 - Set up operating system and make the robot drive and arm move from python code
-- Deploy the yolo model into the robot
+- Finish training & finetuning Yolo-v5 and deploy the model
 - Maintain the docs and design the slides for submission
 
 <!-- To be added
 Samyak's role is-->
 Hanson's role is 
-- Bought the power system, mechanical structure of the robot
+- Bought the robot car kit
 - Assemble the power system, mechanical structure of the robot
-- Help with embedded coding part
+- Merge the machine learning model with the robot's driving and arm functions
 
 
 ## Risks Identified
