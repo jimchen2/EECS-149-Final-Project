@@ -27,16 +27,14 @@ We need to make it label the flyers(and relevant stuff), to make it detect trash
 
 ## Approach
 
-# YOLO Trash Detection Workflow
-
-## Step 1: Dataset Acquisition
+### Step 1: Dataset Acquisition
 - Find relevant datasets (e.g., TACO, Open Images).
 - Optionally, supplement with custom data.
 
-## Step 2: Automated Labeling
+### Step 2: Automated Labeling
 - Use a high-accuracy model like Mask R-CNN to assist in initial labeling.
 
-## Step 3: Train YOLO Model
+### Step 3: Train YOLO Model
 - Train YOLO using the labeled dataset.
 - Split data: 70% training, 15% validation, 15% test.
 - Adjust hyperparameters and apply data augmentation to improve model robustness.
