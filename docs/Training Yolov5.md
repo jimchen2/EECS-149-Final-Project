@@ -23,7 +23,7 @@ As we can see it isn't very accurate (falsely labeling kite, and not including t
 
 We need to make it label the flyers(and relevant stuff), to make it detect trash accordingly, then use the robot arm.
 
-![image_reduced](https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/048fa871-c2aa-47af-a1ce-243a573c8d3c)
+<img src="https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/048fa871-c2aa-47af-a1ce-243a573c8d3c" style="width: 50%;">
 
 ## Approach
 
