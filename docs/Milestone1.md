@@ -28,7 +28,7 @@ Tasks are scheduled on a weekly basis starting now:
 ### Jiamu's role is
 - Set up operating system and make the robot drive and arm move from python code
 - Finish training & finetuning Yolo-v5 and deploy the model
-- Maintain the docs and design the slides for submission
+- Maintain the docs, design the slides, and write the report for submission
 
 ### Samyak's role is
 - Aiding in mechanical robot assembly.
