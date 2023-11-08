@@ -46,4 +46,4 @@ Samyak's role is-->
 
 ## Repositories
 - GitHub: [EECS-149 Final Project Repository](https://github.com/jimchen2/EECS-149-Final-Project)
-- Gitbook: [EECS-149 Final Project Repository](https://berkeley-7.gitbook.io/pro/)
+- Gitbook: [EECS-149 Final Project Docs](https://berkeley-7.gitbook.io/pro/)
