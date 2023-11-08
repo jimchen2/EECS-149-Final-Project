@@ -30,8 +30,11 @@ Tasks are scheduled on a weekly basis starting now:
 - Finish training & finetuning Yolo-v5 and deploy the model
 - Maintain the docs and design the slides for submission
 
-<!-- To be added
-Samyak's role is-->
+### Samyak's role is
+- Aiding in mechanical robot assembly.
+- Implementing spatial localization and path finding (navigation) algorithm on robot.
+- Presentations, poster, and report (all members will make contributions to this, Samyak will bear more responsibility here to tailor to English-speaking community).
+
 ### Hanson's role is 
 - Bought the robot car kit
 - Assemble the power system, mechanical structure of the robot
