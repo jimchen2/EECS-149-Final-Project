@@ -12,18 +12,17 @@
 - Tried out Yolo on images
 
 ## Goals - Modifications to Project Scope
-The primary objective remains to create a trash-collecting robot using machine learning for image recognition and real-time decision-making. We are evaluating the potential of employing a state machine against a machine learning model for the trash collection mechanism, with further refinements underway.
+The primary objective remains to create a trash-collecting robot using machine learning for image recognition and real-time decision-making. We are evaluating the potential of employing a state machine against a machine learning model for the trash collection mechanism, with further refinements underway. We are incorporating one thing more: a spatial localization and path find system. Having the robot navigate some sort of obstacle course (with simple, predictable obstacles for the robot to identify) while picking up trash along the way will be the final output of our project, intended to resemble some practical automated trash collection system to be used in suburban areas.
 
 ## Resources Acquired
 - Raspberry Pi CanaKit
 - Robot Car Kit (including a robotic arm)
 
 ## Schedule
-Tasks are scheduled on a weekly basis starting now:
-- Operate the car and robotic arm.
-- Integrate and deploy the machine learning model with the robot's camera.
-- Implement and fine-tune the trash collection method, potentially modifying the robot design.
-- Conduct debugging and troubleshooting.
+11/8-14: Complete mechanical assembly of robotic car and arm, test operation.
+11/15-21: Integrate and deploy the machine learning model with the robot's camera. Implement navigation.
+11/22-28: Finetune the trash collection method, potentially modifying the robot design.
+11/29-12/12: Conduct debugging and troubleshooting. Write report + prepare presentation.
 
 ### Jiamu's role is
 - Set up operating system and make the robot drive and arm move from python code
@@ -33,7 +32,7 @@ Tasks are scheduled on a weekly basis starting now:
 ### Samyak's role is
 - Aiding in mechanical robot assembly.
 - Implementing spatial localization and path finding (navigation) algorithm on robot.
-- Presentations, poster, and report (all members will make contributions to this, Samyak will bear more responsibility here to tailor to English-speaking community).
+- Presentations, poster, and report (all members will make contributions to this, Samyak will bear more responsibility here to tailor to English-speaking course community).
 
 ### Hanson's role is 
 - Bought the robot car kit
