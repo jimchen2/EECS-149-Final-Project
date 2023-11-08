@@ -25,6 +25,7 @@ The robot learns to see trash with a machine learning system.
 2. MBD & Modeling Physical Dynamics
 3. Networking
 4. TinyML (TinyML is a branch of machine learning and embedded systems research that focuses on running low-power model inference on small devices like microcontrollers)
+5. Finite State Machines
 
 ## Schedule
 
