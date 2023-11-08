@@ -20,8 +20,11 @@ The primary objective remains to create a trash-collecting robot using machine l
 
 ## Schedule
 11/8-14: Complete mechanical assembly of robotic car and arm, test operation.
+
 11/15-21: Integrate and deploy the machine learning model with the robot's camera. Implement navigation.
+
 11/22-28: Finetune the trash collection method, potentially modifying the robot design.
+
 11/29-12/12: Conduct debugging and troubleshooting. Write report + prepare presentation.
 
 ### Jiamu's role is
