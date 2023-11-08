@@ -30,3 +30,13 @@ Plan
    c) power system (Amazon)
 3) Get wheels running
 4) Obtain pre-trained data
+
+Roles
+1) Bot Navigation
+   a) RL
+   
+
+Milestone 1 Presentations
+Samyak - Project 
+Jim - Rasberry Pi, Risks, Repos
+Hanson - Progress, Schedule, and Car Assembly
