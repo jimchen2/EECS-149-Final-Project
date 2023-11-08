@@ -5,6 +5,8 @@ Car Assembly
   a) Distribution Board
   b) Cable Connectors
   c) Car set power source
+4) Information
+   https://www.adeept.com/learn/detail-34.html
 
 Software
 1) Navigation (orientation, obstacle identification, motion, etc)
