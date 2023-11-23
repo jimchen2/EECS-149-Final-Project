@@ -94,3 +94,9 @@ After installation, I found the missing terminal, so I installed xterm as well.
 ```
 sudo apt-get install xterm
 ```
+Overall, the way to access the desktop is listed below.
+```
+vncserver-virtual
+```
+The number of the desktop would be shown in the output information.
+Use vnc software to connet to ip:desktop_number. The password of the desktop is also "password".
