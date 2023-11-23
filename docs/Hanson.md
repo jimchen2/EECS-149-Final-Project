@@ -95,6 +95,7 @@ After installation, I found the missing terminal, so I installed xterm as well.
 sudo apt-get install xterm
 ```
 Overall, the way to access the desktop is listed below.
+Type in the command line.
 ```
 vncserver-virtual
 ```
