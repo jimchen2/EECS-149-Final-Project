@@ -85,3 +85,12 @@ IP_ADDRESS=$(ip addr show wlan0 | grep "inet\b" | awk '{print $2}' | cut -d/ -f1
 
 curl -X POST 	https://webhook.site/1df23e04-05ec-47c1-abc6-145c16679683 -d "ip=$IP_ADDRESS"
 ```
+
+## Downloading Desktop
+
+Though not necessary, I still find it inconvenient to operate without a desktop environment. The desktop might could do help especially when we start to debug the camera.
+I mainly referenced the website https://forums.raspberrypi.com/viewtopic.php?f=66&t=133691, and chose to install RPD.
+After installation, I found the missing terminal, so I installed xterm as well.
+```
+sudo apt-get install xterm
+```
