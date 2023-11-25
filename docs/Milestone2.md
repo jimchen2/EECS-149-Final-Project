@@ -40,6 +40,7 @@ Data Transmission/Reception: Sends/receives location, garbage status, operationa
 ## Schedule
 
 11/27 Week: Finish integrating the camera with the robot navigation. Implement a navigation method on the robot.
+
 12/04 Week: Conduct debugging. Write report and prepare presentation.
 
 - Jiamu: Python scripts for tinyML and photography, Yolo-v5 training/deployment, documentation, report writing.
