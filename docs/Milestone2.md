@@ -3,7 +3,7 @@
 ## Progress So Far
 - Completed hardware procurement.
 - Completed assembling the robot kit.
-- Configured Raspberry Pi for automatic WiFi connection and SSH on boot via systemd service.
+- Configured Raspberry Pi for automatic WiFi connection and `ssh` on boot via systemd service.
 - Wrote scripts to take pictures in real time and deploy images to cloud/cnn locally
 - Trained Yolo on images
 
