@@ -1,4 +1,4 @@
-# Milestone 1 Report: Trash Collector Bot
+# Milestone 2 Report: Trash Collector Bot
 
 ## Progress So Far
 - Completed hardware procurement.
