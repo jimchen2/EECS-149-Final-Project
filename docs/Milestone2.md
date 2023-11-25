@@ -14,7 +14,7 @@ Building ML-based robot for trash collection; includes state machine vs. ML comp
 ## Course Topics
 ### FSM
 
-![image](https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/174bcfe7-8111-407b-9c8c-0eb78aba4025)
+<img width="50%" src="https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/174bcfe7-8111-407b-9c8c-0eb78aba4025"></img>
 
 See https://www.overleaf.com/read/zczqmvbfxknk#4f2916
 ### TinyML
