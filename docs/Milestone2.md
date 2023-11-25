@@ -3,18 +3,20 @@
 ## Progress So Far
 - Completed hardware procurement.
 - Completed assembling the robot kit.
-- Configured Raspberry Pi for automatic WiFi connection and `ssh` on boot via systemd service.
-- Wrote scripts to take pictures in real time and deploy images to cloud/cnn locally
+- Configured `ssh`
+- Scripted photo capture and cloud/CNN deployment.
 - Trained Yolo on images
 
-## Goals - Modifications to Project Scope
-Create a robot using machine learning for trash collection and real-time decisions. We're comparing a state machine and machine learning model for trash collection and adding a spatial localization and pathfinding system. The final goal is a robot that navigates an obstacle course, identifying obstacles and picking up trash, resembling an automated system for suburban areas.
+## Goals 
+
+Building ML-based robot for trash collection; includes state machine vs. ML comparison, spatial localization, pathfinding. Aim: navigate, identify obstacles, and pick up trash.
 
 ## Course Topics
 ### FSM
 
 ![image](https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/174bcfe7-8111-407b-9c8c-0eb78aba4025)
 
+See https://www.overleaf.com/read/zczqmvbfxknk#4f2916
 ### TinyML
 
 Yolo-v5 on Raspberry Pi
@@ -40,25 +42,14 @@ Data Transmission/Reception: Sends/receives location, garbage status, operationa
 11/27 Week: Finish integrating the camera with the robot navigation. Implement a navigation method on the robot.
 12/04 Week: Conduct debugging. Write report and prepare presentation.
 
-### Jiamu's role is
-- Write python scripts for tinyML and taking pictures.
-- Finish training & finetuning Yolo-v5 and deploy the model
-- Maintain the docs, and write the report for submission
-
-### Samyak's role is
-- Aiding in mechanical robot assembly.
-- Implementing spatial localization and path finding (navigation) algorithm on robot.
-
-### Hanson's role is 
-- Assemble the power system, mechanical structure of the robot
-- Set up system on microsd card 
-- Merge the machine learning model with the robot's driving and arm functions
+- Jiamu: Python scripts for tinyML and photography, Yolo-v5 training/deployment, documentation, report writing.
+- Samyak: Assist in robot assembly, implement spatial localization and navigation.
+- Hanson: Assemble power, mechanical structure, setup microSD system, integrate ML model with robot functions.
 
 
 ## Risks Identified
-- **Crappy OS:** Rasp Pi OS has lots of problems, including cv2 problem, interface has no camera, python needs to be in env mode, crappy apt package manager. In comparision, Arch Linux is much better, with good package manager(pacman and aur), and high-level customization.
-- **Controlling the Robot:** Crappy code from Adeept Bot online makes it hard to control the robot to do certain things with its claws and its wheels.
-Besides the OS and controlling I don't think there will be any problems.
+Raspberry Pi OS Problems: Issues with cv2, lack of camera support, Python environment limitations, and an unsatisfactory package manager.
+Robot Control Issues: Inadequate code from Adeept Bot for controlling the robot's claws and wheels.
 
 ## Repositories
 - GitHub: [EECS-149 Final Project Repository](https://github.com/jimchen2/EECS-149-Final-Project)
