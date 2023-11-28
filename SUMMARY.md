@@ -8,4 +8,4 @@
 * [Training_Yolo.ipynb](https://colab.research.google.com/github/jimchen2/EECS-149-Final-Project/blob/main/Training_Yolo.ipynb)
 
 ## Vision
-* [Setting Up Rasp Pi OS](docs/Milestone2.md/script.sh)
+* [Setting Up Rasp Pi OS](vision/script.sh)
