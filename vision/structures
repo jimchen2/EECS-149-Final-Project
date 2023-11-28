@@ -1,0 +1,54 @@
+[jimchen ~/Downloads/vision (copy)]$ tree -L 2
+.
+├── images
+│   ├── test
+│   ├── train
+│   └── validate
+├── labels
+│   ├── test
+│   ├── train
+│   ├── train.cache
+│   ├── validate
+│   └── validate.cache
+├── OIDv4_ToolKit
+│   ├── classes.txt
+│   ├── images
+│   ├── LICENSE
+│   ├── main.py
+│   ├── modules
+│   ├── OID
+│   ├── README.md
+│   └── requirements.txt
+├── script.sh
+├── script_to_format.sh
+├── tincan.yaml
+└── yolov5
+    ├── benchmarks.py
+    ├── CITATION.cff
+    ├── classify
+    ├── CONTRIBUTING.md
+    ├── data
+    ├── detect.py
+    ├── env
+    ├── export.py
+    ├── hubconf.py
+    ├── LICENSE
+    ├── models
+    ├── __pycache__
+    ├── README.md
+    ├── README.zh-CN.md
+    ├── requirements.txt
+    ├── runs
+    ├── segment
+    ├── setup.cfg
+    ├── train.py
+    ├── tutorial.ipynb
+    ├── utils
+    ├── val.py
+    └── yolov5s.pt
+
+22 directories, 25 files
+
+
+!git clone https://github.com/ultralytics/yolov5
+!git clone https://github.com/EscVM/OIDv4_ToolKit

@@ -1,0 +1,11 @@
+# tincan.yaml
+path: /home/jimchen/Downloads/vision (copy)  # root directory path of the dataset
+train: images/train  # path to training images
+val: images/validate  # path to validation images
+
+# number of classes
+nc: 1  
+
+# class names
+names: ['Tin can']
+
