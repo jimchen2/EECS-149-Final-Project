@@ -43,7 +43,7 @@ Data Transmission/Reception: Sends/receives location, garbage status, operationa
 
 12/04 Week: Conduct debugging. Write report and prepare presentation.
 
-- Jiamu: Python scripts for tinyML and photography, Yolo-v5 training/deployment, documentation, report writing.
+- Jiamu: Python scripts for tinyML and photography, Yolo-v5 training/deployment, system debugging, organize docs and write milestone reports
 - Samyak: Assist in robot assembly, implement spatial localization and navigation.
 - Hanson: Assemble power, mechanical structure, setup microSD system, integrate ML model with robot functions.
 
