@@ -1,23 +1,25 @@
 Useful Commands
 
 ## Put a video to dropbox
-dbxcli put /home/pi/Pictures/example.txt /path/to/example.png
+`
+dbxcli put /home/pi/Pictures/example.txt /path/to/example.png`
 
 ## Capture an image and store it in Pictures folder
-libcamera-still -o /home/pi/Pictures/image_$(date +%s).jpg
+`libcamera-still -o /home/pi/Pictures/image_$(date +%s).jpg`
 
 ## Capture quickly
-libcamera-still -t 1 -o /home/pi/Pictures/quick_image.jpg
+`libcamera-still -t 1 -o /home/pi/Pictures/quick_image.jpg`
 
 ## Capture low-res image
-libcamera-still --width 640 --height 480 -o /home/pi/Pictures/low_res_image.jpg
+`libcamera-still --width 640 --height 480 -o /home/pi/Pictures/low_res_image.jpg`
 
 ## Other commands
---nopreview  		Without a preview window
---hflip      		Horizontal Flip:
--q 75 			Set Specific JPEG Quality
---timelapse 5000        Timelapse Photography(ms)
-
+```
+--nopreview  		#Without a preview window
+--hflip      		#Horizontal Flip:
+-q 75 			#Set Specific JPEG Quality
+--timelapse 5000        #Timelapse Photography(ms)
+```
 
 ## Utilizing the scripts
 ```
