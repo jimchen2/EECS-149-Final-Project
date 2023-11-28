@@ -16,20 +16,25 @@ Building ML-based robot for trash collection; includes state machine vs. ML comp
 
 <img width="50%" src="https://github.com/jimchen2/EECS-149-Final-Project/assets/123833550/174bcfe7-8111-407b-9c8c-0eb78aba4025"></img>
 
-See https://www.overleaf.com/read/zczqmvbfxknk#4f2916
+See  [this link](https://www.overleaf.com/read/zczqmvbfxknk#4f2916)
 ### TinyML
 
-Yolo-v5 on Raspberry Pi
+Yolo-v5 on Raspberry Pi see [this link]
+(https://colab.research.google.com/github/jimchen2/EECS-149-Final-Project/blob/main/Training_Yolo.ipynb)
 
 ### Sensors and Actuators
 Sensors: Cameras, ultrasonic (optional).
+
 Raspberry Pi: Processes images, computer vision.
+
 Actuators: Motors, arms.
+
 Control: Raspberry Pi, GPIO pins, sensor-based.
 
 ### Wireless Control and Communication
 
 Remote Operation: Using `ssh` to control the robot in real time(optional)
+
 Data Transmission/Reception: Sends/receives location, garbage status, operational updates for dynamic operation.
 
 
