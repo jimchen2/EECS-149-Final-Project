@@ -19,8 +19,7 @@ Building ML-based robot for trash collection; includes state machine vs. ML comp
 See  [this link](https://www.overleaf.com/read/zczqmvbfxknk#4f2916)
 ### TinyML
 
-Yolo-v5 on Raspberry Pi see [this link]
-(https://colab.research.google.com/github/jimchen2/EECS-149-Final-Project/blob/main/Training_Yolo.ipynb)
+Yolo-v5 on Raspberry Pi see [this link](https://colab.research.google.com/github/jimchen2/EECS-149-Final-Project/blob/main/Training_Yolo.ipynb)
 
 ### Sensors and Actuators
 Sensors: Cameras, ultrasonic (optional).
