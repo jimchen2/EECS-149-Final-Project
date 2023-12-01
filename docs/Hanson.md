@@ -101,3 +101,5 @@ vncserver-virtual
 ```
 The number of the desktop would be shown in the output information.
 Use vnc software to connet to ip:desktop_number. The password of the desktop is also "password".
+##
+pwm = Adafruit_PCA9685.PCA9685()=(busnum=1)
