@@ -4,7 +4,7 @@ import time
 import sys
 sys.path.append('/home/pi/Adeept_RaspTank/server')  # Add the directory containing 'move.py' to the Python path
 
-from move import setup, motor_left, motorStop, destroy  # Now you can import normally
+from move import setup, motor_left, motorStop, destroy,move  # Now you can import normally
 
 MID_POSITION =  # Define the mid-position value
 
