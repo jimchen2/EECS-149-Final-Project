@@ -1,7 +1,7 @@
 import trash_collector
 import recognizeline
 import time
-from /home/pi/Adeept_RaspTank/server/move import setup, motor_left, motorStop, destroy
+from "/home/pi/Adeept_RaspTank/server/move" import setup, motor_left, motorStop, destroy
 
 MID_POSITION =  # Define the mid-position value
 
