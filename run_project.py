@@ -40,6 +40,11 @@ def go_forward():
     motor_left(1, 0, speed)  # Move forward
     motor_right(1, 0, speed)
 
+def go_backward():
+    speed = 60  # Define your speed
+    setup()
+    motor_left(1, 1, speed)  # Move backward
+    motor_right(1, 1, speed)
 
 
 if __name__ == "__main__":
