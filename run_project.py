@@ -1,7 +1,10 @@
 import trash_collector
 import recognizeline
 import time
-from "/home/pi/Adeept_RaspTank/server/move" import setup, motor_left, motorStop, destroy
+import sys
+sys.path.append('/home/pi/Adeept_RaspTank/server')  # Add the directory containing 'move.py' to the Python path
+
+from move import setup, motor_left, motorStop, destroy  # Now you can import normally
 
 MID_POSITION =  # Define the mid-position value
 
