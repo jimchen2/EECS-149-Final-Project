@@ -7,3 +7,5 @@ while True:
     for result in results:
         boxes = result.boxes
         probs = result.probs
+        print(boxes)
+        print(probs)
