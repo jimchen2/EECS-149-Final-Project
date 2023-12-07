@@ -38,7 +38,7 @@ def go_forward():
     speed = 60  # Define your speed
     
     setup()
-    move(speed_set, 'forward', 'no', 0.8)
+    move(speed, 'forward', 'no', 0.8)
     time.sleep(1.3)
     motorStop()
     destroy()
