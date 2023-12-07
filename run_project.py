@@ -38,9 +38,8 @@ def go_forward():
     speed = 60  # Define your speed
     
     setup()
-    motor_left(1, 0, speed)  # Move forward
-    motor_right(1, 0, speed)
-    # Add a time delay if required
+    move(speed_set, 'forward', 'no', 0.8)
+    time.sleep(1.3)
     motorStop()
     destroy()
 
