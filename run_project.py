@@ -36,12 +36,10 @@ def follow_line():
 
 def go_forward():
     speed = 60  # Define your speed
-    
     setup()
-    move(speed, 'forward', 'no', 0.8)
-    time.sleep(1.3)
-    motorStop()
-    destroy()
+    motor_left(1, 0, speed)  # Move forward
+    motor_right(1, 0, speed)
+
 
 
 if __name__ == "__main__":
