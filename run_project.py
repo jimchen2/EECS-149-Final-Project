@@ -36,6 +36,7 @@ def follow_line():
 
 def go_forward():
     speed = 60  # Define your speed
+    
     setup()
     motor_left(1, 0, speed)  # Move forward
     motor_right(1, 0, speed)
