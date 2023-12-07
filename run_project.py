@@ -4,7 +4,7 @@ import sys
 sys.path.append('/home/pi/Adeept_RaspTank/server')  # Add the directory containing 'move.py' to the Python path
 sys.path.append('./detectline')  # Add the directory containing 'move.py' to the Python path
 
-from detectline import 
+from detectline import detectline
 from move import setup, motor_left,motor_right, motorStop, destroy,move  # Now you can import normally
 
 MID_POSITION =  # Define the mid-position value
