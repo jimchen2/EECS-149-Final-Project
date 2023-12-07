@@ -45,6 +45,10 @@ def go_backward():
     motor_left(1, 1, 60)  # Move backward
     motor_right(1, 0, 60)
 
+def stop():
+    setup()
+    motor_left(0, 1, 60)  # Move backward
+    motor_right(0, 0, 60)
 
 if __name__ == "__main__":
     main()
