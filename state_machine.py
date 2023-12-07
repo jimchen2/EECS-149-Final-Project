@@ -1,4 +1,6 @@
-# Define a class to represent the state machine
+import detect_line
+import yolov5_trash
+import PID_function
 class RobotStateMachine:
     def __init__(self):
         # Start in the Navigation Mode state
@@ -12,17 +14,13 @@ class RobotStateMachine:
         # Check sensors and switch state based on conditions
         if self.detect_trash():
             self.state = "Trash Picking Mode"
-        elif self.detect_obstacle():
-            self.state = "Obstacle Avoidance"
         elif self.detect_error():
             self.state = "Error Handling"
-        # ... more conditions based on your state diagram
+        line_postion=detect_line()
+        motor_input=PID_function(line_position)
+        motor_move(motor_input)
 
-    def obstacle_avoidance(self):
-        # Implement obstacle avoidance logic here
-        print("Robot is avoiding an obstacle.")
-        # Once obstacle is avoided, return to Navigation Mode
-        self.state = "Navigation Mode"
+        # ... more conditions based on your state diagram
 
     def error_handling(self):
         # Implement error handling logic here
@@ -50,14 +48,6 @@ class RobotStateMachine:
     def detect_trash(self):
         # Simulate trash detection
         return True
-
-    def more_trash_detected(self):
-        # Simulate checking for more trash
-        return False
-
-    def detect_obstacle(self):
-        # Simulate obstacle detection
-        return False
 
     def detect_error(self):
         # Simulate error detection
