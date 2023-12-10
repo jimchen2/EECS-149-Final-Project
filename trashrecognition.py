@@ -34,13 +34,14 @@ def main():
     # Process the predictions
     for detection in predictions[0]:
         # Extract information from the detection
-        x_center, y_center, width, height, confidence, class_id = detection
-
-        # Check if the confidence is above the threshold
-        if confidence >= confidence_threshold:
-            # Convert coordinates and draw bounding boxes
-            xmin, ymin, xmax, ymax = convert_to_corner_coordinates(x_center, y_center, width, height)
-            cv2.rectangle(numpy_image_rgb, (int(xmin), int(ymin)), (int(xmax), int(ymax)), (255, 0, 0), 2)
+        if len(detection) >= 6:
+            x_center, y_center, width, height, confidence, class_id, *_ = detection
+    
+            # Check if the confidence is above the threshold
+            if confidence >= confidence_threshold:
+                # Convert coordinates and draw bounding boxes
+                xmin, ymin, xmax, ymax = convert_to_corner_coordinates(x_center, y_center, width, height)
+                cv2.rectangle(numpy_image_rgb, (int(xmin), int(ymin)), (int(xmax), int(ymax)), (255, 0, 0), 2)
 
     # Convert the processed numpy image to a JPEG byte stream
     _, buffer = cv2.imencode('.jpg', numpy_image_rgb)
