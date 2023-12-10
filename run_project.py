@@ -3,7 +3,6 @@ import time
 import sys
 import Adafruit_PCA9685
 pwm = Adafruit_PCA9685.PCA9685(busnum=1)
-pwm.set_pwm_freq(50)
 
 sys.path.append('/home/pi/Adeept_RaspTank/server')  # Add the directory containing 'move.py' to the Python path
 sys.path.append('./detectline')  # Add the directory containing 'move.py' to the Python path
