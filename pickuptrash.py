@@ -33,11 +33,3 @@ def pickup_trash():
     # Step 3: Close the claw to grab the trash.
     pwm.set_pwm(15, 0, 250)
     
-    time.sleep(0.5)
-    pwm.set_pwm(12, 0, 0)    
-    time.sleep(0.5)
-    pwm.set_pwm(12, 0, 100)
-    time.sleep(0.5)
-    pwm.set_pwm(12, 0, 150)
-    time.sleep(0.5)
-    pwm.set_pwm(12, 0, 200)
