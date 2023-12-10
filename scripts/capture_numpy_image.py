@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from capture_image import capture_image
 
-def capture_numpy_image(timeout=0, resolution=(0, 0), preview=True, hflip=False, quality=93):
+def capture_numpy_image(timeout=0, resolution=(0, 0), preview=True, hflip=True, quality=93):
     """
     Captures an image using libcamera-still and returns it as a numpy array.
     """
