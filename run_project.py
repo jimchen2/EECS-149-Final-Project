@@ -25,33 +25,7 @@ def main():
             adjustposition()
             pick_up_trash()
 
-        time.sleep(0.1)
 
-def pick_up_trash():
-    pwm.set_pwm(13, 0, 500)
-    time.sleep(2)
-    pwm.set_pwm(12, 0, 100)
-    time.sleep(2)
-    pwm.set_pwm(15, 0, 100)
-    time.sleep(2)
-    
-    
-    
-    pwm.set_pwm(13, 0, 350)
-    time.sleep(2)
-    pwm.set_pwm(12, 0, 300)
-    time.sleep(2)
-    pwm.set_pwm(15, 0, 250)
-    time.sleep(2)
-    
-    
-    
-    
-    pwm.set_pwm(13, 0, 500)
-    time.sleep(2)
-    pwm.set_pwm(12, 0, 100)
-    time.sleep(2)
-        
 def adjust_motor_for_trash():
     # Logic to adjust motor so that the trash is in the middle position
     pass
