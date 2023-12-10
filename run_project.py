@@ -23,7 +23,7 @@ def main():
 
         if trash_collector.see_tin_can():
             adjustposition()
-            pick_up_trash()
+            pickup_trash()
 
 
 def adjust_motor_for_trash():
