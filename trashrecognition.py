@@ -2,6 +2,7 @@ import torch
 from torchvision import transforms
 import cv2
 import sys
+import numpy as np
 
 # Load the YOLOv5 model
 model = torch.hub.load('ultralytics/yolov5', 'custom', path='/home/pi/best.pt')
@@ -24,7 +25,7 @@ tensor_image = transforms.ToTensor()(numpy_image_rgb).unsqueeze_(0)
 # Get predictions from the model
 predictions = model(tensor_image)
 
-# Define a confidence threshold (e.g., 0.25)
+# Define a confidence threshold (e.g., 0.05)
 confidence_threshold = 0.05
 
 # Process the predictions
@@ -46,5 +47,12 @@ for detection in predictions[0]:
         # Draw bounding boxes on the image
         cv2.rectangle(numpy_image_rgb, (int(xmin), int(ymin)), (int(xmax), int(ymax)), (255, 0, 0), 2)
 
-# At this point, you can display the image using cv2.imshow() or save it using cv2.imwrite(), 
-# depending on your requirements.
+# Convert the processed numpy image to a JPEG byte stream
+_, buffer = cv2.imencode('.jpg', numpy_image_rgb)
+jpeg_image_byte_stream = np.array(buffer).tobytes()
+
+# Import the function to upload to Dropbox
+from upload_to_dropbox import upload_image_to_dropbox
+
+# Upload the JPEG byte stream to Dropbox
+upload_image_to_dropbox(jpeg_image_byte_stream, is_numpy=False)
