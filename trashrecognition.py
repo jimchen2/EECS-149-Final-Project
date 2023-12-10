@@ -29,7 +29,7 @@ def main():
     predictions = model(tensor_image)
 
     # Define a confidence threshold
-    confidence_threshold = 0.05
+    confidence_threshold = 0.2
 
     # Process the predictions
     for detection in predictions[0]:
