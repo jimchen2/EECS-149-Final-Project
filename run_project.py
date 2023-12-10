@@ -7,7 +7,7 @@ pwm = Adafruit_PCA9685.PCA9685(busnum=1)
 
 sys.path.append('/home/pi/Adeept_RaspTank/server')  # Add the directory containing 'move.py' to the Python path
 sys.path.append('./detectline')  # Add the directory containing 'move.py' to the Python path
-sys.path.append('.')  # Add the directory containing 'move.py' to the Python path
+sys.path.append('..')  # Add the directory containing 'move.py' to the Python path
 
 from detectline import detectline
 from move import setup, motor_left,motor_right, motorStop, destroy,move  # Now you can import normally
