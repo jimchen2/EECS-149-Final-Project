@@ -18,7 +18,7 @@ def pickup_trash():
     # Channel 12 controls the claw's up and down movement.
 
     
-    time.sleep(0.5)
+    time.sleep(2)
     pwm.set_pwm(12, 0, 200)
     time.sleep(0.5)
     pwm.set_pwm(12, 0, 150)
