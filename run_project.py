@@ -1,4 +1,3 @@
-wimport trash_collector
 import time
 import sys
 import Adafruit_PCA9685
