@@ -1,4 +1,4 @@
-import trash_collector
+wimport trash_collector
 import time
 import sys
 import Adafruit_PCA9685
@@ -28,25 +28,23 @@ def main():
 
 def pick_up_trash():
     pwm.set_pwm(13, 0, 500)
-    time.sleep(1)
-    pwm.set_pwm(15, 0, 100)
-    time.sleep(1)
-    pwm.set_pwm(13, 0, 460)
-    time.sleep(1)
-    pwm.set_pwm(13, 0, 430)
-    time.sleep(1)
-    pwm.set_pwm(13, 0, 400)
-    time.sleep(1)
-    time.sleep(1)
-    pwm.set_pwm(15, 0, 240)
-    time.sleep(1)
-    pwm.set_pwm(13, 0, 430)
-    time.sleep(1)
-    pwm.set_pwm(13, 0, 460)
-    time.sleep(1)
-    pwm.set_pwm(13, 0, 500)
-
+    time.sleep(0.5)
     
+    pwm.set_pwm(13, 0, 350)
+    time.sleep(0.5)
+    pwm.set_pwm(12, 0, 100)
+    time.sleep(0.5)
+    pwm.set_pwm(12, 0, 300)
+    time.sleep(0.5)
+    pwm.set_pwm(15, 0, 100)
+    time.sleep(0.5)
+    pwm.set_pwm(15, 0, 250)
+    time.sleep(0.5)
+    pwm.set_pwm(13, 0, 500)
+    time.sleep(0.5)
+    pwm.set_pwm(12, 0, 100)
+    time.sleep(0.5)
+        
 def adjust_motor_for_trash():
     # Logic to adjust motor so that the trash is in the middle position
     pass
