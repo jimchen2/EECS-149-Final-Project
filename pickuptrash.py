@@ -13,9 +13,15 @@ def pickup_trash():
     # The set_pwm method takes three arguments: channel, on, and off.
     # Channel 15 controls the claw's opening and closing.
     pwm.set_pwm(15, 0, 100)
-
+    
     # Step 2: Push the claw down.
     # Channel 12 controls the claw's up and down movement.
+    pwm.set_pwm(12, 0, 200)
+
+    pwm.set_pwm(12, 0, 250)
+    pwm.set_pwm(12, 0, 300)
+    pwm.set_pwm(12, 0, 350)
+
     pwm.set_pwm(12, 0, 400)
     
     # Wait for 2 seconds to ensure the claw has reached the trash.
@@ -24,5 +30,3 @@ def pickup_trash():
     # Step 3: Close the claw to grab the trash.
     pwm.set_pwm(15, 0, 250)
 
-    # Step 4: Lift the claw up.
-    pwm.set_pwm(12, 0, 60)
