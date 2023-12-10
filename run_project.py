@@ -11,6 +11,7 @@ sys.path.append('.')  # Add the directory containing 'move.py' to the Python pat
 
 from detectline import detectline
 from move import setup, motor_left,motor_right, motorStop, destroy,move  # Now you can import normally
+from pickuptrash import pickup_trash
 
 MID_POSITION =  # Define the mid-position value
 
