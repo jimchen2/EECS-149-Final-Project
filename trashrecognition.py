@@ -25,7 +25,7 @@ tensor_image = transforms.ToTensor()(numpy_image_rgb).unsqueeze_(0)
 predictions = model(tensor_image)
 
 # Define a confidence threshold (e.g., 0.25)
-confidence_threshold = 0.25
+confidence_threshold = 0.05
 
 # Process the predictions
 for detection in predictions[0]:
