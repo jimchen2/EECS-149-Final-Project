@@ -3,7 +3,7 @@ import Adafruit_PCA9685
 
 # Initialize the PCA9685 using the default address (0x40) and bus number 1.
 pwm = Adafruit_PCA9685.PCA9685(busnum=1)
-
+pwm.set_pwm_freq(50)
 def pickup_trash():
     """
     Function to control a robotic claw to pick up trash.
