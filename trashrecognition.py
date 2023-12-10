@@ -5,7 +5,8 @@ import sys
 import numpy as np
 
 # Load the YOLOv5 model once, outside the main function
-model = torch.hub.load('ultralytics/yolov5', 'custom', path='/home/pi/best.pt')
+# model = torch.hub.load('ultralytics/yolov5', 'custom', path='/home/pi/best.pt')
+model = torch.hub.load('ultralytics/yolov5', 'yolov5s')
 
 # Append path to sys
 sys.path.append('/home/pi/EECS-149-Final-Project/scripts')
