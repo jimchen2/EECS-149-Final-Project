@@ -1,6 +1,10 @@
 import trash_collector
 import time
 import sys
+import Adafruit_PCA9685
+pwm = Adafruit_PCA9685.PCA9685(busnum=1)
+pwm.set_pwm_freq(50)
+
 sys.path.append('/home/pi/Adeept_RaspTank/server')  # Add the directory containing 'move.py' to the Python path
 sys.path.append('./detectline')  # Add the directory containing 'move.py' to the Python path
 
@@ -17,16 +21,32 @@ def main():
             go_forward()
 
         if trash_collector.see_tin_can():
+            adjustposition()
             pick_up_trash()
 
         time.sleep(0.1)
 
 def pick_up_trash():
-    while trash_collector.trash_position() != MID_POSITION:
-        adjust_motor_for_trash()
+    pwm.set_pwm(13, 0, 500)
+    time.sleep(1)
+    pwm.set_pwm(15, 0, 100)
+    time.sleep(1)
+    pwm.set_pwm(13, 0, 460)
+    time.sleep(1)
+    pwm.set_pwm(13, 0, 430)
+    time.sleep(1)
+    pwm.set_pwm(13, 0, 400)
+    time.sleep(1)
+    time.sleep(1)
+    pwm.set_pwm(15, 0, 240)
+    time.sleep(1)
+    pwm.set_pwm(13, 0, 430)
+    time.sleep(1)
+    pwm.set_pwm(13, 0, 460)
+    time.sleep(1)
+    pwm.set_pwm(13, 0, 500)
 
-    trash_collector.pick_up_trash()
-
+    
 def adjust_motor_for_trash():
     # Logic to adjust motor so that the trash is in the middle position
     pass
