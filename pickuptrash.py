@@ -16,7 +16,7 @@ def pickup_trash():
 
     # Step 2: Push the claw down.
     # Channel 12 controls the claw's up and down movement.
-    pwm.set_pwm(12, 0, 170)
+    pwm.set_pwm(12, 0, 400)
     
     # Wait for 2 seconds to ensure the claw has reached the trash.
     time.sleep(2)
